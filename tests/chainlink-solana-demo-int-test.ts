@@ -31,7 +31,7 @@ describe('chainlink-solana-demo', () => {
         user: provider.wallet.publicKey,
         chainlinkFeed: CHAINLINK_FEED,
         chainlinkProgram: CHAINLINK_PROGRAM_ID,
-        systemProgram: anchor.web3.SystemProgram.programId
+        systemProgram: anchor.web3.SystemProgram.programId 
       },
       options: { commitment: "confirmed" },
       signers: [priceFeedAccount],
