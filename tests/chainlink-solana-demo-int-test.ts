@@ -1,7 +1,7 @@
 import * as anchor from '@project-serum/anchor';
 import * as fs from 'fs';
 import { Program, BN } from '@project-serum/anchor';
-import { ChainlinkSolanaDemo } from '../target/types/chainlink_solana_demo';
+import { ChainlinkSolanaDemo} from '../target/types/chainlink_solana_demo';
 const assert = require("assert");
 
 const CHAINLINK_PROGRAM_ID = "CaH12fwNTKJAG8PxEvo9R96Zc2j8qNHZaFj8ZW49yZNT";
